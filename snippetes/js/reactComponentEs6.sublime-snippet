@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+
+export default React.createClass({
+  render () {
+    return (
+      ${0:<div />}
+    );
+  }
+});
+]]></content>
+  <tabTrigger>rcc6</tabTrigger>
+  <scope>source.js</scope>
+  <description>React: component skeleton</description>
+</snippet>
