@@ -6,4 +6,8 @@ Cmd+Shift+p and enter Package Control: Add Repository
 
 Enter https://github.com/underarmour/react-es6-snippets
 
-Cmd+Shift+p again and enter Package Control: Upgrade/Overwrite All Packages
+Cmd+Shift+p again and enter Package Control: Install Package
+
+Enter react-es6-snippets
+
+(Note: repo may need to be made public before this works)
