@@ -2,10 +2,10 @@
   <content><![CDATA[
 import React from 'react';
 
-export default React.createClass({
+export class ${0} extends React.Component({
   render () {
     return (
-      ${0:<div />}
+      ${1:<div />}
     );
   }
 });
