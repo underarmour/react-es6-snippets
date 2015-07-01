@@ -2,7 +2,7 @@
   <content><![CDATA[
 import React from 'react';
 
-export class ${0} extends React.Component({
+export class ${0:ClassName} extends React.Component({
   render () {
     return (
       ${1:<div />}
