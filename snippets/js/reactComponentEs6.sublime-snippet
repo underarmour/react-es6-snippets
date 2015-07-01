@@ -2,13 +2,13 @@
   <content><![CDATA[
 import React from 'react';
 
-export class ${1:ClassName} extends React.Component({
+export class ${1:ClassName} extends React.Component{
   render () {
     return (
       ${2:<div />}
     );
   }
-});
+}
 ]]></content>
   <tabTrigger>rcc6</tabTrigger>
   <scope>source.js</scope>
