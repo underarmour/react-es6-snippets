@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-propTypes: {
-  ${1}: React.PropTypes.${2:string}
-}
+${1:ClassName}.propTypes = {
+  ${2:prop_name}: PropTypes.${3:array|bool|func|number|object|string}${4:.isRequired}
+};
 ]]></content>
     <tabTrigger>pt6</tabTrigger>
     <scope>source.js</scope>

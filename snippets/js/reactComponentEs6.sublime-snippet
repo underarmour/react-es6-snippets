@@ -1,14 +1,19 @@
 <snippet>
   <content><![CDATA[
-import React from 'react';
+import React, { PropTypes, Component } from 'react';
 
-export class ${1:ClassName} extends React.Component{
+export default class ${1:ClassName} extends Component{
   render () {
+    const { ${2:prop_name} } = this.props;
     return (
-      ${2:<div />}
+      ${3:<div />}
     );
   }
 }
+
+${1:ClassName}.propTypes = {
+  ${4:prop_name}: PropTypes.${5:array|bool|func|number|object|string}${6:.isRequired}
+};
 ]]></content>
   <tabTrigger>rcc6</tabTrigger>
   <scope>source.js</scope>
