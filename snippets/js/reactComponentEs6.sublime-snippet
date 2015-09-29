@@ -3,17 +3,17 @@
 import React, { PropTypes, Component } from 'react';
 
 export default class ${1:ClassName} extends Component{
+  static propTypes = {
+    ${2:prop_name}: PropTypes.${3:array|bool|func|number|object|string}${4:.isRequired}
+  }
+
   render () {
     const { ${2:prop_name} } = this.props;
     return (
-      ${3:<div />}
+      ${5:<div />}
     );
   }
 }
-
-${1:ClassName}.propTypes = {
-  ${4:prop_name}: PropTypes.${5:array|bool|func|number|object|string}${6:.isRequired}
-};
 ]]></content>
   <tabTrigger>rcc6</tabTrigger>
   <scope>source.js</scope>
